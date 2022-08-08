@@ -1,0 +1,34 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background: #FFEDD5;
+    gap: 100px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.menu {
+    display: flex;
+    width: 100%;
+    height: 45px;
+    background: #FED7AA;
+}
+
+.menuLink,
+.contactLink {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    height: 100%;    
+}
+
+.logoTonho {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
