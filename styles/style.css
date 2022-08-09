@@ -15,7 +15,7 @@ body {
 .menu {
     position: fixed;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     width: 100%;
     gap: 15px;
