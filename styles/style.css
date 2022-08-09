@@ -63,7 +63,7 @@ ul {
 .productSection,
 .headerMenu {
     max-width: 350px;
-    margin: 0 auto;
+    margin: 0 auto 26px;
 }
 
 h1 {
