@@ -4,52 +4,94 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ipsep Coffee Shop</title>
-    <link rel="stylesheet" href="../styles/menu.css">
+    <link rel="stylesheet" href="../styles/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <title>Cardápio do Seu Tonho</title>
 </head>
 
 <body>
-    <header>
-        <a class="menuLink" href="./index.html">Voltar</a>
-        <h1>Cardápio</h1>
-        <p>Horário: De Terça à Domingo. 18:00h - 22:45h</p>
+    <header class="menu">
+        <nav>
+            <a class="homeLink" href="./index.html">Início</a>
+        </nav>
+        <nav>
+            <a class="contactLink" href="./about.html">Sobre</a>
+        </nav>
     </header>
 
-    <section>
-        <div>
-            <h2>Brunch</h2>
-        </div>
-        <div>
-            <ul>
-                <li>
-                    <div class="details">
-                        <h3>Waffle Doce</h3>
-                        <p class="description">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        </p>
-                    </div>
-                    <strong class="price">
-                        R$ 37,70
-                    </strong>
-                </li>
+    <main>
+        <section class="headerMenu">
+            <img class="logoTonho" src="../assets/logoTonho.png" alt="Logo">
+            <h1>Cardápio</h1>
+            <p>Horário: De Terça à Domingo. 18:00h - 22:45h</p>
+        </section>
+        <section class="productSection">
+            <div>
+                <h2>Sanduiches</h2>
+            </div>
+            <div>
+                <ul>
+                    <!-- AMERICANO -->
+                    <li>
+                        <div class="details">
+                            <h3>Americano</h3>
+                            <p class="description">
+                                Pão de forma, queijo prato, presunto, ovo, alface, tomate, cebola, dueto de milho e
+                                ervilha. Acompanha molho especial da casa.
+                            </p>
+                        </div>
+                        <strong class="price">
+                            R$ 16,80
+                        </strong>
+                    </li>
+                    <!-- MC TONHO -->
+                    <li>
+                        <div class="details">
+                            <h3>Mc Tonho</h3>
+                            <p class="description">
+                                Pão de forma, queijo queijo prato, presunto, hambúrguer, ovo, alface, tomate, cebola,
+                                dueto
+                                de milho e ervilha, patatapalha. Acompanha molho especial da casa.
+                            </p>
+                        </div>
+                        <strong class="price">
+                            R$ 18,10
+                        </strong>
+                    </li>
+                    <!-- CACHORRO QUENTE -->
+                    <li>
+                        <div class="details">
+                            <h3>Cachorro quente</h3>
+                            <p class="description">
+                                Pão, salsicha, vinagrete (tomate e cebola), cenoura, dueto de milho e ervilha, uva
+                                passa,
+                                batata palha, maionese, molho rosé, queijo ralado.
+                            </p>
+                        </div>
+                        <strong class="price">
+                            R$ 17,70
+                        </strong>
+                    </li>
+                    <!-- MISTO QUENTE -->
+                    <li>
+                        <div class="details">
+                            <h3>Misto quente</h3>
+                            <p class="description">
+                                Pão de forma, queijo prato, presunto.
+                            </p>
+                        </div>
+                        <strong class="price">
+                            R$ 10,75
+                        </strong>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
 
-                <li>
-                    <div class="details">
-                        <h3>Maçã Doce</h3>
-                        <p class="description">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        </p>
-                    </div>
-                    <strong class="price">
-                        R$ 17,70
-                    </strong>
-                </li>
-            </ul>
-        </div>
-    </section>
+
 </body>
 
 </html>
