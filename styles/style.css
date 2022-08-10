@@ -4,7 +4,6 @@
     box-sizing: border-box;
 }
 
-
 body {
     display: flex;
     flex-direction: column;
@@ -15,15 +14,14 @@ body {
 .menu {
     position: fixed;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     flex-wrap: wrap;
     width: 100%;
     gap: 15px;
-    padding: 15px;
-
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 33px;
+    padding: 10px 15px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
     background: #FED7AA;
 }
 
@@ -31,12 +29,13 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    text-align: center;
     margin-top: 90px;
 }
 
-.mainIndex {
-    margin-top: 200px;
+.headerMenu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .logoTonho {
@@ -102,9 +101,18 @@ p {
     flex-grow: 0;
 }
 
-@media (max-width: 530px) {
+footer {
+    position: fixed;
+    bottom: 0;
+    background: #FED7AA;
+    width: 100%;
+    text-align: center;
+    font-size: 10px;
+    line-height: 30px;
+}
+
+@media (max-width: 483px) {
     .mainMenu {
         margin-top: 140px;
-        /* padding-top: 130px; */
     }
 }
